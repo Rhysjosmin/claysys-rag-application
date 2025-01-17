@@ -88,7 +88,7 @@ async def query(query: str, context: str):
                 "content": f"Now Heres The Question ,--> {query}, only respond based on the refrence, just give the answer no filler words, but formulate it in proper english like a conversation, if it doesnt exist in the refrence do not answer, keep your tone friendly and casual",
             },
         ],
-        model="llama-3.3-70b-versatile",
+        model="llama-3.1-8b-instant",
         temperature=0.6,
         max_completion_tokens=1024,
         top_p=1,
